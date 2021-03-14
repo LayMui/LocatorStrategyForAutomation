@@ -14,7 +14,8 @@ import locatorStrategy13 from './locatorStrategy13.vue'
 import locatorStrategy14 from './locatorStrategy14.vue'
 import locatorStrategy15 from './locatorStrategy15.vue'
 import locatorStrategy16 from './locatorStrategy16.vue'
-
+import locatorStrategy17 from './locatorStrategy17.vue'
+import locatorStrategy18 from './locatorStrategy18.vue'
 const pages = [
   {
     name: 'Page 1',
@@ -128,7 +129,20 @@ const pages = [
     },
     component: locatorStrategy16
   },
-
+  {
+    name: 'Page 17',
+    meta: {
+      title: 'locator strategy for UI automation for web app'
+    },
+    component: locatorStrategy17
+  },
+  {
+    name: 'Page 18',
+    meta: {
+      title: 'test automation code for web app'
+    },
+    component: locatorStrategy18
+  },
   
 ]
 
